@@ -47,10 +47,6 @@ body {
   padding-inline: 2.4rem;
 }
 
-ul {
-  list-style: none;
-}
-
 img {
   max-width: 100%;
 }
@@ -131,7 +127,7 @@ section .content p {
   left: 0;
   z-index: -1;
 
-  margin-bottom: 10rem;
+  
 }
 
 #home {
@@ -185,7 +181,6 @@ nav.scroll {
 
 nav .logo {
   text-decoration: none;
-  list-style: none;
   color: var(--gray-headline);
 }
 
@@ -381,7 +376,6 @@ body.menu-expanded button path {
 }
 
 #contact .content a:nth-child(1) {
-  list-style: none;
   text-decoration: none;
   display: flex;
   align-items: center;
@@ -403,7 +397,6 @@ footer .logo {
 
   color: var(--primary-light-02);
   text-decoration: none;
-  list-style: none;
   font-size: 2.8rem;
   margin-bottom: 2.4rem;
 }
@@ -416,12 +409,12 @@ footer p {
 
 footer .social-links {
   justify-content: flex-start;
+  list-style: none;
 }
 
 footer .social-links a {
   display: flex;
   text-decoration: none;
-  list-style: none;
   align-items: center;
   gap: 0.8rem;
   color: var(--primary-light-02);
@@ -631,6 +624,14 @@ footer .social-links a {
 
   #home .content p {
     font-size: 1.8rem;
+    width: 58.7rem;
+  }
+
+  #home .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
   }
 
   #home .button {
